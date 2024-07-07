@@ -4,7 +4,7 @@
 if SHIELD_CORNE_REVERSE_DIODE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Corne reverse diode"
+    default "Corne-king"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
