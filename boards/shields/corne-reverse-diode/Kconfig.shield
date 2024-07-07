@@ -1,0 +1,8 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CORNE_REVERSE_DIODE_LEFT
+    def_bool $(shields_list_contains,corne-reverse-diode_left)
+
+config SHIELD_CORNE_REVERSE_DIODE_RIGHT
+    def_bool $(shields_list_contains,corne-reverse-diode_right)

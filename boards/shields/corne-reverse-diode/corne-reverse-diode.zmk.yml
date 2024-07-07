@@ -1,0 +1,12 @@
+file_format: "1"
+id: corne-reverse-diode
+name: corne-reverse-diode
+type: shield
+url: https://github.com/gnl221/corne-reverse-diode
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+siblings:
+  - corne-reverse-diode_left
+  - corne-reverse-diode_right
